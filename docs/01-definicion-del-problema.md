@@ -10,7 +10,7 @@ Este documento fija las decisiones que convierten el escenario en un problema qu
 
 ## 0. El planeta: Veguitto
 
-Por indicación del docente, la constelación no se diseña para la Tierra sino para otro planeta. Usamos **Veguitto**, un planeta ficticio definido por el equipo.
+ Usamos **Veguitto**, un planeta ficticio definido por el equipo.
 
 | Dato | Valor | Por qué |
 |---|---|---|
