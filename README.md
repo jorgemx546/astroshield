@@ -141,5 +141,5 @@ Revisión de cada integrante sobre su parte *(cada quien completa la suya)*:
 
 - Navarrete Tzuc Jorge: con el equipo decidimos usar el planeta Veguitto, como pidió el profe, pero dejando las coordenadas y prioridades del enunciado. Yo organicé qué le tocaba a cada quien. Abrí el visor 3D en mi navegador y le encontré dos problemas: uno de los modelos de guía salía acostado y se veía demasiado brillante. Los reporté y se corrigieron antes de entregar. Al final junté las partes de todos y revisé que el repositorio tuviera los seis entregables.
 - Ríos Astudillo Daniel Eduardo: *(pendiente)*
-- Itza Santizo Jarett Osiel: *(pendiente)*
+- Itza Santizo Jarett Osiel: *Se usó IA (Claude) para generar el código del algoritmo evolutivo y de la calibración. Yo lo ejecuté en mi computadora, comprobé que las pruebas pasaran, comparé mis resultados con los de la guía*
 - Salinas Beatriz Erick: *(pendiente)*
