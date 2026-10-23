@@ -1,0 +1,3275 @@
+{
+  "P1_escenario_inicial": {
+    "etapa1": {
+      "resumen": {
+        "aptitud": 1.0291,
+        "porcentaje_cota": 98.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.892,
+          "Desierto Kami": 0.0
+        }
+      },
+      "resumen_inicial": {
+        "aptitud": 0.3867,
+        "porcentaje_cota": 37.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.541,
+          "Selva Namek": 0.865,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.405,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "cota": 1.0461538461538462,
+      "evaluaciones": 12000,
+      "segundos": 0.22
+    },
+    "etapa2": {
+      "resumen": {
+        "aptitud": 1.0462,
+        "porcentaje_cota": 100.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "resumen_inicial": {
+        "aptitud": 0.3867,
+        "porcentaje_cota": 37.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.541,
+          "Selva Namek": 0.865,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.405,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "cota": 1.0461538461538462,
+      "evaluaciones": 12000,
+      "segundos": 0.18
+    }
+  },
+  "P2_evolucion": {
+    "tabla": [
+      {
+        "generacion": 0,
+        "mejor_aptitud": 0.3867,
+        "promedio_validas": 0.0197,
+        "porcentaje_validas": 81.2,
+        "regiones_cubiertas": 0,
+        "sigma": 8.0
+      },
+      {
+        "generacion": 5,
+        "mejor_aptitud": 0.659,
+        "promedio_validas": 0.268,
+        "porcentaje_validas": 91.2,
+        "regiones_cubiertas": 1,
+        "sigma": 7.17
+      },
+      {
+        "generacion": 10,
+        "mejor_aptitud": 0.7751,
+        "promedio_validas": 0.4825,
+        "porcentaje_validas": 83.8,
+        "regiones_cubiertas": 1,
+        "sigma": 6.42
+      },
+      {
+        "generacion": 25,
+        "mejor_aptitud": 0.9179,
+        "promedio_validas": 0.5956,
+        "porcentaje_validas": 75.0,
+        "regiones_cubiertas": 4,
+        "sigma": 4.61
+      },
+      {
+        "generacion": 50,
+        "mejor_aptitud": 0.9578,
+        "promedio_validas": 0.6885,
+        "porcentaje_validas": 72.5,
+        "regiones_cubiertas": 4,
+        "sigma": 2.66
+      },
+      {
+        "generacion": 75,
+        "mejor_aptitud": 1.0297,
+        "promedio_validas": 0.7465,
+        "porcentaje_validas": 66.2,
+        "regiones_cubiertas": 6,
+        "sigma": 1.53
+      },
+      {
+        "generacion": 100,
+        "mejor_aptitud": 1.0437,
+        "promedio_validas": 0.8052,
+        "porcentaje_validas": 63.7,
+        "regiones_cubiertas": 6,
+        "sigma": 0.88
+      },
+      {
+        "generacion": 149,
+        "mejor_aptitud": 1.0462,
+        "promedio_validas": 0.7638,
+        "porcentaje_validas": 58.8,
+        "regiones_cubiertas": 6,
+        "sigma": 0.3
+      }
+    ],
+    "gen_95": 64,
+    "gen_98": 73,
+    "gen_cota": 130
+  },
+  "P3_P4_restricciones": {
+    "margenes": [
+      {
+        "zona": "Cinturón de escombros Norte",
+        "tipo": "escombros",
+        "radio": 12.0,
+        "satelite_mas_cercano": 7,
+        "distancia": 40.61,
+        "margen": 28.61
+      },
+      {
+        "zona": "Cinturón de escombros Sur",
+        "tipo": "escombros",
+        "radio": 10.0,
+        "satelite_mas_cercano": 6,
+        "distancia": 57.66,
+        "margen": 47.66
+      },
+      {
+        "zona": "Casquete de escombros polar",
+        "tipo": "escombros",
+        "radio": 8.0,
+        "satelite_mas_cercano": 2,
+        "distancia": 58.52,
+        "margen": 50.52
+      },
+      {
+        "zona": "Objeto A",
+        "tipo": "ocupada",
+        "radio": 5.0,
+        "satelite_mas_cercano": 7,
+        "distancia": 45.05,
+        "margen": 40.05
+      },
+      {
+        "zona": "Objeto B",
+        "tipo": "ocupada",
+        "radio": 5.0,
+        "satelite_mas_cercano": 1,
+        "distancia": 22.94,
+        "margen": 17.94
+      }
+    ],
+    "azar_invalidas_pct": 21.5,
+    "azar_satelites_en_zona_pct": 2.8,
+    "azar_por_zona": {
+      "Cinturón de escombros Norte": 94,
+      "Cinturón de escombros Sur": 63,
+      "Casquete de escombros polar": 41,
+      "Objeto A": 18,
+      "Objeto B": 8
+    },
+    "inyecciones": [
+      {
+        "zona": "Cinturón de escombros Norte",
+        "tipo": "escombros",
+        "detectada": true,
+        "violacion": 12.0,
+        "aptitud_sin_restricciones": 0.8923
+      },
+      {
+        "zona": "Cinturón de escombros Sur",
+        "tipo": "escombros",
+        "detectada": true,
+        "violacion": 10.0,
+        "aptitud_sin_restricciones": 0.8923
+      },
+      {
+        "zona": "Casquete de escombros polar",
+        "tipo": "escombros",
+        "detectada": true,
+        "violacion": 8.0,
+        "aptitud_sin_restricciones": 0.8923
+      },
+      {
+        "zona": "Objeto A",
+        "tipo": "ocupada",
+        "detectada": true,
+        "violacion": 5.0,
+        "aptitud_sin_restricciones": 0.8923
+      },
+      {
+        "zona": "Objeto B",
+        "tipo": "ocupada",
+        "detectada": true,
+        "violacion": 5.0,
+        "aptitud_sin_restricciones": 0.8923
+      }
+    ],
+    "etapa1_validas_en_etapa2": "10/10"
+  },
+  "P5_espacio_reducido": {
+    "saiyan": [
+      {
+        "caso": "Etapa 2 (referencia)",
+        "aptitud": 1.0462,
+        "porcentaje_cota": 100.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "satelites_en_saiyan": 2,
+        "distancia_mas_cercano_saiyan": 1.02
+      },
+      {
+        "caso": "+ zona de 2.5° sobre Meseta Saiyan",
+        "aptitud": 1.0004,
+        "porcentaje_cota": 95.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.973,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.919
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.108,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.676,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "satelites_en_saiyan": 2,
+        "distancia_mas_cercano_saiyan": 2.83
+      }
+    ],
+    "saiyan_5_semillas": {
+      "semillas": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "aptitudes": [
+        1.0004,
+        1.0227,
+        1.0075,
+        0.9859,
+        1.0249
+      ],
+      "minimo": 0.9859,
+      "mediana": 1.0075,
+      "maximo": 1.0249,
+      "regiones_cubiertas": [
+        5,
+        6,
+        5,
+        3,
+        6
+      ],
+      "suficientemente_buenas": 0,
+      "coberturas": [
+        {
+          "Meseta Saiyan": 0.973,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.919
+        },
+        {
+          "Meseta Saiyan": 0.973,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.973,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        {
+          "Meseta Saiyan": 0.946,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        {
+          "Meseta Saiyan": 0.946,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.892,
+          "Desierto Kami": 0.838
+        },
+        {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        }
+      ]
+    },
+    "progresivo": [
+      {
+        "zonas_extra": 0,
+        "area_prohibida_pct": 2.7,
+        "azar_validas_pct": 82.4,
+        "gen_primera_valida": 0,
+        "aptitud": 1.0462,
+        "porcentaje_cota": 100.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "zonas_extra": 10,
+        "area_prohibida_pct": 5.5,
+        "azar_validas_pct": 65.6,
+        "gen_primera_valida": 0,
+        "aptitud": 1.0424,
+        "porcentaje_cota": 99.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.838,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "zonas_extra": 20,
+        "area_prohibida_pct": 8.2,
+        "azar_validas_pct": 52.5,
+        "gen_primera_valida": 0,
+        "aptitud": 1.0405,
+        "porcentaje_cota": 99.5,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.838,
+          "Selva Namek": 0.919,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "zonas_extra": 40,
+        "area_prohibida_pct": 13.4,
+        "azar_validas_pct": 33.3,
+        "gen_primera_valida": 0,
+        "aptitud": 1.0324,
+        "porcentaje_cota": 98.7,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.946
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.919,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      }
+    ],
+    "caso_saiyan": {}
+  },
+  "P6_condiciones_dificiles": [
+    {
+      "caso": "a) Objeto B movido sobre Desierto Kami (radio 5°)",
+      "alcanzabilidad": {
+        "Meseta Saiyan": 1.0,
+        "Selva Namek": 1.0,
+        "Valle Capsule": 1.0,
+        "Llanura Kaio": 1.0,
+        "Archipiélago Zenkai": 1.0,
+        "Desierto Kami": 0.973
+      },
+      "resumen": {
+        "aptitud": 0.9877,
+        "porcentaje_cota": 94.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.622
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.73,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "problemas": 0,
+      "pct_validas_final": 57.49999999999999,
+      "cinco_semillas": {
+        "semillas": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "aptitudes": [
+          0.9877,
+          0.9948,
+          0.9784,
+          0.9896,
+          0.9834
+        ],
+        "minimo": 0.9784,
+        "mediana": 0.9877,
+        "maximo": 0.9948,
+        "regiones_cubiertas": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "suficientemente_buenas": 0,
+        "coberturas": [
+          {
+            "Meseta Saiyan": 1.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 0.622
+          },
+          {
+            "Meseta Saiyan": 1.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 0.405
+          },
+          {
+            "Meseta Saiyan": 1.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 0.0
+          },
+          {
+            "Meseta Saiyan": 1.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 0.297
+          },
+          {
+            "Meseta Saiyan": 1.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "caso": "b) Zona de 9° sobre Meseta Saiyan",
+      "alcanzabilidad": {
+        "Meseta Saiyan": 0.0,
+        "Selva Namek": 1.0,
+        "Valle Capsule": 1.0,
+        "Llanura Kaio": 1.0,
+        "Archipiélago Zenkai": 1.0,
+        "Desierto Kami": 1.0
+      },
+      "resumen": {
+        "aptitud": 0.8185,
+        "porcentaje_cota": 78.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.703,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "problemas": 0,
+      "pct_validas_final": 46.25,
+      "cinco_semillas": {
+        "semillas": [
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "aptitudes": [
+          0.8185,
+          0.8185,
+          0.8156,
+          0.8231,
+          0.8189
+        ],
+        "minimo": 0.8156,
+        "mediana": 0.8185,
+        "maximo": 0.8231,
+        "regiones_cubiertas": [
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "suficientemente_buenas": 0,
+        "coberturas": [
+          {
+            "Meseta Saiyan": 0.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 1.0
+          },
+          {
+            "Meseta Saiyan": 0.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 1.0
+          },
+          {
+            "Meseta Saiyan": 0.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 1.0
+          },
+          {
+            "Meseta Saiyan": 0.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 1.0
+          },
+          {
+            "Meseta Saiyan": 0.0,
+            "Selva Namek": 1.0,
+            "Valle Capsule": 1.0,
+            "Llanura Kaio": 1.0,
+            "Archipiélago Zenkai": 1.0,
+            "Desierto Kami": 0.946
+          }
+        ]
+      }
+    },
+    {
+      "caso": "c) Todo el planeta prohibido",
+      "alcanzabilidad": {
+        "Meseta Saiyan": 0.0,
+        "Selva Namek": 0.0,
+        "Valle Capsule": 0.0,
+        "Llanura Kaio": 0.0,
+        "Archipiélago Zenkai": 0.0,
+        "Desierto Kami": 0.0
+      },
+      "resumen": {
+        "aptitud": 0.0,
+        "porcentaje_cota": 0.0,
+        "valida": false,
+        "violacion": 8.373,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "problemas": 17,
+      "pct_validas_final": 0.0,
+      "cinco_semillas": null
+    }
+  ],
+  "P7_variacion": {
+    "filas": [
+      {
+        "semilla": 100,
+        "aptitud": 1.0437,
+        "porcentaje_cota": 99.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.892,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 94,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            36.9191,
+            -120.0704
+          ],
+          [
+            -4.0037,
+            -61.0283
+          ],
+          [
+            -3.1884,
+            -61.7207
+          ],
+          [
+            19.4901,
+            -88.6171
+          ],
+          [
+            35.6852,
+            139.5728
+          ],
+          [
+            21.9606,
+            -90.1994
+          ],
+          [
+            -25.3306,
+            131.4652
+          ],
+          [
+            13.9658,
+            -0.4501
+          ]
+        ]
+      },
+      {
+        "semilla": 101,
+        "aptitud": 1.0462,
+        "porcentaje_cota": 100.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 95,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Meseta Saiyan",
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            14.9575,
+            -1.302
+          ],
+          [
+            21.1115,
+            -89.0559
+          ],
+          [
+            -3.0121,
+            -61.4566
+          ],
+          [
+            19.4854,
+            -90.1305
+          ],
+          [
+            36.1678,
+            -118.4539
+          ],
+          [
+            -3.1915,
+            -62.6588
+          ],
+          [
+            37.0491,
+            139.077
+          ],
+          [
+            -26.2178,
+            133.0089
+          ]
+        ]
+      },
+      {
+        "semilla": 102,
+        "aptitud": 1.0405,
+        "porcentaje_cota": 99.5,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.919,
+          "Selva Namek": 0.838,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 86,
+        "segundos": 0.2,
+        "regiones_duplicadas": [],
+        "mejor": [
+          [
+            19.4512,
+            -90.4029
+          ],
+          [
+            19.1159,
+            -89.0126
+          ],
+          [
+            15.9893,
+            -0.0169
+          ],
+          [
+            38.0791,
+            -120.1383
+          ],
+          [
+            -3.8492,
+            -62.2452
+          ],
+          [
+            -24.4643,
+            134.0438
+          ],
+          [
+            36.9622,
+            136.6374
+          ],
+          [
+            -4.3844,
+            -59.9433
+          ]
+        ]
+      },
+      {
+        "semilla": 103,
+        "aptitud": 1.0418,
+        "porcentaje_cota": 99.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.811,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 101,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            36.4501,
+            -118.5069
+          ],
+          [
+            37.0167,
+            137.648
+          ],
+          [
+            14.186,
+            -0.831
+          ],
+          [
+            -3.3664,
+            -61.7135
+          ],
+          [
+            21.9467,
+            -88.4936
+          ],
+          [
+            -25.3761,
+            132.4118
+          ],
+          [
+            -4.8189,
+            -62.63
+          ],
+          [
+            19.8006,
+            -86.9897
+          ]
+        ]
+      },
+      {
+        "semilla": 104,
+        "aptitud": 1.0347,
+        "porcentaje_cota": 98.9,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.838,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 107,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Valle Capsule"
+        ],
+        "mejor": [
+          [
+            36.7896,
+            -121.0902
+          ],
+          [
+            -3.7555,
+            -61.08
+          ],
+          [
+            37.0191,
+            139.1818
+          ],
+          [
+            36.2299,
+            -119.1699
+          ],
+          [
+            15.0092,
+            -0.8091
+          ],
+          [
+            -25.0962,
+            134.5746
+          ],
+          [
+            19.5039,
+            -89.4155
+          ],
+          [
+            18.2665,
+            -89.7187
+          ]
+        ]
+      },
+      {
+        "semilla": 105,
+        "aptitud": 1.0437,
+        "porcentaje_cota": 99.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.892,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 100,
+        "segundos": 0.18,
+        "regiones_duplicadas": [
+          "Meseta Saiyan"
+        ],
+        "mejor": [
+          [
+            -3.6375,
+            -63.7039
+          ],
+          [
+            19.363,
+            -89.7628
+          ],
+          [
+            14.8025,
+            0.5076
+          ],
+          [
+            -25.3552,
+            132.9392
+          ],
+          [
+            21.7332,
+            -88.5704
+          ],
+          [
+            -2.9594,
+            -61.2813
+          ],
+          [
+            37.6829,
+            -117.9405
+          ],
+          [
+            36.1407,
+            137.4108
+          ]
+        ]
+      },
+      {
+        "semilla": 106,
+        "aptitud": 1.043,
+        "porcentaje_cota": 99.7,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.865,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 52,
+        "segundos": 0.18,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            -26.4108,
+            133.0279
+          ],
+          [
+            -4.0706,
+            -62.3128
+          ],
+          [
+            35.94,
+            136.8902
+          ],
+          [
+            21.8124,
+            -88.1753
+          ],
+          [
+            19.197,
+            -87.8569
+          ],
+          [
+            36.7935,
+            -118.8333
+          ],
+          [
+            -2.9473,
+            -60.6887
+          ],
+          [
+            15.3161,
+            -0.1504
+          ]
+        ]
+      },
+      {
+        "semilla": 107,
+        "aptitud": 1.0366,
+        "porcentaje_cota": 99.1,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.919,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 99,
+        "segundos": 0.2,
+        "regiones_duplicadas": [
+          "Valle Capsule"
+        ],
+        "mejor": [
+          [
+            -3.7351,
+            -62.4165
+          ],
+          [
+            20.1639,
+            -88.8989
+          ],
+          [
+            14.9855,
+            0.9363
+          ],
+          [
+            34.9143,
+            138.1021
+          ],
+          [
+            19.7577,
+            -87.4257
+          ],
+          [
+            -24.776,
+            132.0951
+          ],
+          [
+            37.465,
+            -118.7463
+          ],
+          [
+            36.0987,
+            -118.2884
+          ]
+        ]
+      },
+      {
+        "semilla": 108,
+        "aptitud": 1.036,
+        "porcentaje_cota": 99.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.892,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 105,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Llanura Kaio"
+        ],
+        "mejor": [
+          [
+            20.0184,
+            -88.8845
+          ],
+          [
+            -3.1503,
+            -61.4457
+          ],
+          [
+            -24.0954,
+            132.7917
+          ],
+          [
+            36.2294,
+            -118.2302
+          ],
+          [
+            36.6432,
+            137.5059
+          ],
+          [
+            15.8273,
+            -0.7029
+          ],
+          [
+            19.4869,
+            -90.6642
+          ],
+          [
+            15.0989,
+            -1.4458
+          ]
+        ]
+      },
+      {
+        "semilla": 109,
+        "aptitud": 1.0378,
+        "porcentaje_cota": 99.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.973,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 70,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Meseta Saiyan",
+          "Llanura Kaio"
+        ],
+        "mejor": [
+          [
+            15.86,
+            -0.0976
+          ],
+          [
+            35.9533,
+            -120.2204
+          ],
+          [
+            20.7582,
+            -88.4471
+          ],
+          [
+            36.6758,
+            139.573
+          ],
+          [
+            19.1699,
+            -89.7919
+          ],
+          [
+            -2.1288,
+            -62.3578
+          ],
+          [
+            -26.2941,
+            133.2897
+          ],
+          [
+            14.7479,
+            -1.244
+          ]
+        ]
+      },
+      {
+        "semilla": 110,
+        "aptitud": 1.0356,
+        "porcentaje_cota": 99.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.811,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 102,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            37.464,
+            138.2242
+          ],
+          [
+            35.4469,
+            140.8095
+          ],
+          [
+            37.3577,
+            -119.5375
+          ],
+          [
+            -3.7809,
+            -63.0596
+          ],
+          [
+            20.7363,
+            -88.5644
+          ],
+          [
+            -2.51,
+            -61.055
+          ],
+          [
+            -25.7154,
+            133.2814
+          ],
+          [
+            16.4448,
+            -0.0071
+          ]
+        ]
+      },
+      {
+        "semilla": 111,
+        "aptitud": 1.038,
+        "porcentaje_cota": 99.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.703,
+          "Selva Namek": 0.946,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 84,
+        "segundos": 0.18,
+        "regiones_duplicadas": [],
+        "mejor": [
+          [
+            20.3045,
+            -89.4985
+          ],
+          [
+            36.2711,
+            137.3484
+          ],
+          [
+            18.0083,
+            -90.5965
+          ],
+          [
+            36.5667,
+            -119.5773
+          ],
+          [
+            -23.6578,
+            133.3268
+          ],
+          [
+            -3.2584,
+            -61.2201
+          ],
+          [
+            -4.9633,
+            -62.4532
+          ],
+          [
+            15.3175,
+            -1.3458
+          ]
+        ]
+      },
+      {
+        "semilla": 112,
+        "aptitud": 1.0385,
+        "porcentaje_cota": 99.3,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 77,
+        "segundos": 0.2,
+        "regiones_duplicadas": [
+          "Meseta Saiyan",
+          "Valle Capsule"
+        ],
+        "mejor": [
+          [
+            35.512,
+            -119.8818
+          ],
+          [
+            -24.292,
+            133.4089
+          ],
+          [
+            15.7464,
+            -0.1108
+          ],
+          [
+            37.7524,
+            -119.3375
+          ],
+          [
+            -3.1628,
+            -61.3387
+          ],
+          [
+            19.802,
+            -88.3025
+          ],
+          [
+            21.1804,
+            -89.3631
+          ],
+          [
+            36.5593,
+            138.4654
+          ]
+        ]
+      },
+      {
+        "semilla": 113,
+        "aptitud": 1.0191,
+        "porcentaje_cota": 97.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.811
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.703,
+          "Selva Namek": 0.757,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": null,
+        "segundos": 0.19,
+        "regiones_duplicadas": [],
+        "mejor": [
+          [
+            35.5397,
+            136.4653
+          ],
+          [
+            19.6074,
+            -89.4911
+          ],
+          [
+            -4.0202,
+            -61.8262
+          ],
+          [
+            20.223,
+            -92.1007
+          ],
+          [
+            -24.78,
+            130.2706
+          ],
+          [
+            36.549,
+            -118.3305
+          ],
+          [
+            14.7393,
+            0.4002
+          ],
+          [
+            -0.7522,
+            -61.6161
+          ]
+        ]
+      },
+      {
+        "semilla": 114,
+        "aptitud": 1.0462,
+        "porcentaje_cota": 100.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 62,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Meseta Saiyan",
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            -24.8584,
+            131.5613
+          ],
+          [
+            15.5738,
+            0.1575
+          ],
+          [
+            20.2402,
+            -89.1002
+          ],
+          [
+            36.4552,
+            -119.3111
+          ],
+          [
+            20.2364,
+            -87.7461
+          ],
+          [
+            -4.4213,
+            -62.0684
+          ],
+          [
+            35.784,
+            138.9421
+          ],
+          [
+            -3.4562,
+            -61.4692
+          ]
+        ]
+      },
+      {
+        "semilla": 115,
+        "aptitud": 1.036,
+        "porcentaje_cota": 99.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.838,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 48,
+        "segundos": 0.18,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            36.7705,
+            -120.376
+          ],
+          [
+            21.0559,
+            -89.3044
+          ],
+          [
+            13.7488,
+            0.1467
+          ],
+          [
+            -4.701,
+            -62.323
+          ],
+          [
+            36.6432,
+            138.266
+          ],
+          [
+            35.5124,
+            135.1209
+          ],
+          [
+            -23.9464,
+            132.0127
+          ],
+          [
+            -4.3422,
+            -61.1838
+          ]
+        ]
+      },
+      {
+        "semilla": 116,
+        "aptitud": 1.0395,
+        "porcentaje_cota": 99.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.946
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.892,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 90,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Meseta Saiyan"
+        ],
+        "mejor": [
+          [
+            19.9068,
+            -89.6766
+          ],
+          [
+            34.6413,
+            138.0398
+          ],
+          [
+            15.5221,
+            -1.3159
+          ],
+          [
+            -4.8969,
+            -61.9488
+          ],
+          [
+            36.3301,
+            -118.4312
+          ],
+          [
+            -23.6133,
+            132.2609
+          ],
+          [
+            -4.8085,
+            -60.8288
+          ],
+          [
+            19.1772,
+            -88.3688
+          ]
+        ]
+      },
+      {
+        "semilla": 117,
+        "aptitud": 1.0364,
+        "porcentaje_cota": 99.1,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.865,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 90,
+        "segundos": 0.25,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            14.6,
+            -0.9409
+          ],
+          [
+            -24.7619,
+            134.332
+          ],
+          [
+            -3.0034,
+            -60.648
+          ],
+          [
+            20.2703,
+            -89.6877
+          ],
+          [
+            36.0522,
+            138.3926
+          ],
+          [
+            37.5218,
+            -118.1301
+          ],
+          [
+            16.1645,
+            1.6764
+          ],
+          [
+            -4.3501,
+            -63.0264
+          ]
+        ]
+      },
+      {
+        "semilla": 118,
+        "aptitud": 1.0418,
+        "porcentaje_cota": 99.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.811,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 66,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            19.0574,
+            -91.2349
+          ],
+          [
+            19.7864,
+            -90.3745
+          ],
+          [
+            35.4525,
+            -119.2077
+          ],
+          [
+            -3.9277,
+            -62.6497
+          ],
+          [
+            14.5001,
+            0.5982
+          ],
+          [
+            36.4226,
+            139.6094
+          ],
+          [
+            -25.2237,
+            132.4578
+          ],
+          [
+            -2.1168,
+            -62.1561
+          ]
+        ]
+      },
+      {
+        "semilla": 119,
+        "aptitud": 1.0449,
+        "porcentaje_cota": 99.9,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.946,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "gen_98": 69,
+        "segundos": 0.19,
+        "regiones_duplicadas": [
+          "Selva Namek"
+        ],
+        "mejor": [
+          [
+            21.6257,
+            -88.704
+          ],
+          [
+            20.2197,
+            -87.4057
+          ],
+          [
+            -4.8004,
+            -62.0426
+          ],
+          [
+            36.4135,
+            138.5191
+          ],
+          [
+            14.4415,
+            -0.9741
+          ],
+          [
+            -24.8513,
+            131.685
+          ],
+          [
+            36.5235,
+            -120.5551
+          ],
+          [
+            -3.0273,
+            -61.2853
+          ]
+        ]
+      }
+    ],
+    "evaluaciones_por_corrida": 12000,
+    "estadisticas": {
+      "Evolutivo (informado)": {
+        "media": 1.039,
+        "desviacion": 0.006,
+        "minimo": 1.0191,
+        "maximo": 1.0462,
+        "validas": 20,
+        "seis_cubiertas": 18,
+        "suficientemente_buenas": 18,
+        "corridas": 20
+      },
+      "Evolutivo ciego": {
+        "media": 0.9809,
+        "desviacion": 0.0418,
+        "minimo": 0.8983,
+        "maximo": 1.0437,
+        "validas": 20,
+        "seis_cubiertas": 4,
+        "suficientemente_buenas": 4,
+        "corridas": 20
+      },
+      "Búsqueda aleatoria": {
+        "media": 0.3583,
+        "desviacion": 0.0488,
+        "minimo": 0.2931,
+        "maximo": 0.4761,
+        "validas": 20,
+        "seis_cubiertas": 0,
+        "suficientemente_buenas": 0,
+        "corridas": 20
+      }
+    },
+    "ciega": [
+      {
+        "aptitud": 0.9846,
+        "porcentaje_cota": 94.1,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 1.0293,
+        "porcentaje_cota": 98.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.838,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.649,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9507,
+        "porcentaje_cota": 90.9,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 4,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.541,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.811
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.892,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 1.0322,
+        "porcentaje_cota": 98.7,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.919
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9846,
+        "porcentaje_cota": 94.1,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9048,
+        "porcentaje_cota": 86.5,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.892,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.973,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9802,
+        "porcentaje_cota": 93.7,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.892,
+          "Selva Namek": 0.919,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9778,
+        "porcentaje_cota": 93.5,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.919,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.676,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9769,
+        "porcentaje_cota": 93.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9809,
+        "porcentaje_cota": 93.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.838,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.8983,
+        "porcentaje_cota": 85.9,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 4,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.486,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.757,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.892,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9767,
+        "porcentaje_cota": 93.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.73,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.892,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9796,
+        "porcentaje_cota": 93.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.892,
+          "Valle Capsule": 0.838,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9085,
+        "porcentaje_cota": 86.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 3,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.865,
+          "Valle Capsule": 0.676,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.703
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.811,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9809,
+        "porcentaje_cota": 93.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.838,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 1.0437,
+        "porcentaje_cota": 99.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.892,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 1.036,
+        "porcentaje_cota": 99.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.892,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 1.0293,
+        "porcentaje_cota": 98.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.973,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.676,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9809,
+        "porcentaje_cota": 93.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.838,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.9815,
+        "porcentaje_cota": 93.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 5,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.973,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.838,
+          "Desierto Kami": 0.0
+        }
+      }
+    ],
+    "aleatoria": [
+      {
+        "aptitud": 0.341,
+        "porcentaje_cota": 32.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.811,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3306,
+        "porcentaje_cota": 31.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.892,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.811,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3655,
+        "porcentaje_cota": 34.9,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.568,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.162,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3368,
+        "porcentaje_cota": 32.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.838,
+          "Selva Namek": 0.622,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.316,
+        "porcentaje_cota": 30.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.865,
+          "Selva Namek": 0.486,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.054
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3534,
+        "porcentaje_cota": 33.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.865,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3368,
+        "porcentaje_cota": 32.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.649,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.378,
+          "Archipiélago Zenkai": 0.838,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3805,
+        "porcentaje_cota": 36.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.757,
+          "Selva Namek": 0.892,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.2931,
+        "porcentaje_cota": 28.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.784,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.73,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.4595,
+        "porcentaje_cota": 43.9,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.703,
+          "Selva Namek": 0.73,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.838,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.4241,
+        "porcentaje_cota": 40.5,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.811,
+          "Valle Capsule": 0.703,
+          "Llanura Kaio": 0.838,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3243,
+        "porcentaje_cota": 31.0,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.757,
+          "Selva Namek": 0.649,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3721,
+        "porcentaje_cota": 35.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.919,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3638,
+        "porcentaje_cota": 34.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.865,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3846,
+        "porcentaje_cota": 36.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 2,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.4761,
+        "porcentaje_cota": 45.5,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.919,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.216,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.368,
+        "porcentaje_cota": 35.2,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.595,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3181,
+        "porcentaje_cota": 30.4,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.378,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3119,
+        "porcentaje_cota": 29.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 0,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 0.649,
+          "Selva Namek": 0.703,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      {
+        "aptitud": 0.3098,
+        "porcentaje_cota": 29.6,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 1,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.514,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 0.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      }
+    ]
+  },
+  "P8_resiliencia": {
+    "aptitud_completa": 1.0462,
+    "filas": [
+      {
+        "satelite_que_falla": 0,
+        "estaba_sobre": "Selva Namek",
+        "aptitud": 1.0231,
+        "caida": 0.0231,
+        "regiones_cubiertas": 6,
+        "regiones_perdidas": []
+      },
+      {
+        "satelite_que_falla": 1,
+        "estaba_sobre": "Desierto Kami",
+        "aptitud": 0.9692,
+        "caida": 0.0769,
+        "regiones_cubiertas": 5,
+        "regiones_perdidas": [
+          "Desierto Kami"
+        ]
+      },
+      {
+        "satelite_que_falla": 2,
+        "estaba_sobre": "Archipiélago Zenkai",
+        "aptitud": 0.8923,
+        "caida": 0.1538,
+        "regiones_cubiertas": 5,
+        "regiones_perdidas": [
+          "Archipiélago Zenkai"
+        ]
+      },
+      {
+        "satelite_que_falla": 3,
+        "estaba_sobre": "Meseta Saiyan",
+        "aptitud": 1.0231,
+        "caida": 0.0231,
+        "regiones_cubiertas": 6,
+        "regiones_perdidas": []
+      },
+      {
+        "satelite_que_falla": 4,
+        "estaba_sobre": "Valle Capsule",
+        "aptitud": 0.8923,
+        "caida": 0.1538,
+        "regiones_cubiertas": 5,
+        "regiones_perdidas": [
+          "Valle Capsule"
+        ]
+      },
+      {
+        "satelite_que_falla": 5,
+        "estaba_sobre": "Selva Namek",
+        "aptitud": 1.0231,
+        "caida": 0.0231,
+        "regiones_cubiertas": 6,
+        "regiones_perdidas": []
+      },
+      {
+        "satelite_que_falla": 6,
+        "estaba_sobre": "Meseta Saiyan",
+        "aptitud": 1.0231,
+        "caida": 0.0231,
+        "regiones_cubiertas": 6,
+        "regiones_perdidas": []
+      },
+      {
+        "satelite_que_falla": 7,
+        "estaba_sobre": "Llanura Kaio",
+        "aptitud": 0.8923,
+        "caida": 0.1538,
+        "regiones_cubiertas": 5,
+        "regiones_perdidas": [
+          "Llanura Kaio"
+        ]
+      }
+    ]
+  },
+  "P9_muestreo": {
+    "puntos_densos": 121,
+    "soluciones_revisadas": 21,
+    "diferencias": [
+      {
+        "solucion": "semilla 113",
+        "region": "Desierto Kami",
+        "cobertura_37": 0.811,
+        "cobertura_121": 0.81,
+        "cubierta_37": false,
+        "cubierta_121": false
+      },
+      {
+        "solucion": "semilla 116",
+        "region": "Desierto Kami",
+        "cobertura_37": 0.946,
+        "cobertura_121": 0.967,
+        "cubierta_37": false,
+        "cubierta_121": true
+      },
+      {
+        "solucion": "semilla 118",
+        "region": "Meseta Saiyan",
+        "cobertura_37": 1.0,
+        "cobertura_121": 0.983,
+        "cubierta_37": true,
+        "cubierta_121": true
+      }
+    ],
+    "cambios_de_estado": 1
+  },
+  "P10_cambio_condiciones": [
+    {
+      "caso": "a) Selva Namek baja de alta a normal",
+      "cota_nueva": 1.0455,
+      "anterior": {
+        "aptitud": 1.0364,
+        "porcentaje_cota": 99.1,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "nueva": {
+        "aptitud": 1.0435,
+        "porcentaje_cota": 99.8,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.892,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "anterior_dobles": [
+        "Meseta Saiyan",
+        "Selva Namek"
+      ],
+      "nueva_dobles": [
+        "Meseta Saiyan"
+      ]
+    },
+    {
+      "caso": "b) Se cierra la zona donde estaba un satélite (2° alrededor del que ve Llanura Kaio)",
+      "cota_nueva": 1.0462,
+      "anterior": {
+        "aptitud": 1.0462,
+        "porcentaje_cota": 100.0,
+        "valida": false,
+        "violacion": 2.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": false,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 0.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "nueva": {
+        "aptitud": 1.0385,
+        "porcentaje_cota": 99.3,
+        "valida": true,
+        "violacion": 0.0,
+        "regiones_cubiertas": 6,
+        "suficientemente_buena": true,
+        "cobertura": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 1.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 1.0,
+          "Archipiélago Zenkai": 1.0,
+          "Desierto Kami": 1.0
+        },
+        "redundancia": {
+          "Meseta Saiyan": 1.0,
+          "Selva Namek": 0.0,
+          "Valle Capsule": 1.0,
+          "Llanura Kaio": 0.0,
+          "Archipiélago Zenkai": 0.0,
+          "Desierto Kami": 0.0
+        }
+      },
+      "anterior_dobles": [
+        "Meseta Saiyan",
+        "Selva Namek"
+      ],
+      "nueva_dobles": [
+        "Meseta Saiyan",
+        "Valle Capsule"
+      ]
+    }
+  ],
+  "tiempo_total_segundos": 24.0
+}
