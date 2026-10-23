@@ -29,12 +29,14 @@ La aptitud máxima posible es **1.0462** (ver la cota superior en el Entregable 
 | 2 | Implementación funcional | Paquete [`astroshield/`](astroshield) y notebook [`AstroShield.ipynb`](AstroShield.ipynb) |
 | 3 | Pruebas y validación | [docs/03-pruebas-y-validacion.md](docs/03-pruebas-y-validacion.md) + pruebas unitarias en [`pruebas/`](pruebas) |
 | 4 | Análisis de resultados | [docs/04-analisis-de-resultados.md](docs/04-analisis-de-resultados.md) |
-| 5 | Visualización 3D | **`resultados/astroshield_3d.html`** (visor principal) · `resultados/globo_*.html` (versiones simples en Plotly) · dentro del notebook |
+| 5 | Visualización 3D | **[visor en línea](https://jorgemx546.github.io/astroshield/resultados/astroshield_3d.html)** · `resultados/astroshield_3d.html` (visor principal) · `resultados/globo_*.html` (versiones simples en Plotly) · dentro del notebook |
 | 6 | Repositorio | Este repositorio, con su historial de commits |
 
 ## Visor 3D
 
-`resultados/astroshield_3d.html` se abre con doble clic en el navegador (necesita internet la primera vez para cargar Three.js). Todo lo que muestra sale de la ejecución real:
+**En línea:** https://jorgemx546.github.io/astroshield/resultados/astroshield_3d.html (GitHub Pages; no hay que descargar nada).
+
+También se puede abrir `resultados/astroshield_3d.html` con doble clic en el navegador (necesita internet la primera vez para cargar Three.js). Todo lo que muestra sale de la ejecución real:
 
 - **Planeta Veguitto** generado por procedimiento: relieve, océanos con reflejo del sol, nubes en movimiento, atmósfera y bioluminiscencia en el lado nocturno.
 - **Restricciones** a la altura de la órbita: nubes de escombros (partículas) y objetos ocupados con su zona de exclusión.
@@ -137,7 +139,7 @@ Cómo se verificó lo generado:
 
 Revisión de cada integrante sobre su parte *(cada quien completa la suya)*:
 
-- Navarrete Tzuc Jorge: *(pendiente)*
+- Navarrete Tzuc Jorge: con el equipo decidimos usar el planeta Veguitto, como pidió el profe, pero dejando las coordenadas y prioridades del enunciado. Yo organicé qué le tocaba a cada quien. Abrí el visor 3D en mi navegador y le encontré dos problemas: uno de los modelos de guía salía acostado y se veía demasiado brillante. Los reporté y se corrigieron antes de entregar. Al final junté las partes de todos y revisé que el repositorio tuviera los seis entregables.
 - Ríos Astudillo Daniel Eduardo: *(pendiente)*
 - Itza Santizo Jarett Osiel: *(pendiente)*
 - Salinas Beatriz Erick: *(pendiente)*
