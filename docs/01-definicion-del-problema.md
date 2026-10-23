@@ -147,13 +147,15 @@ Así una configuración inválida nunca puede ser "la mejor" mientras exista una
 
 Algoritmo genético generacional con elitismo:
 
-1. **Población inicial:** 60 configuraciones al azar, con los satélites repartidos de forma uniforme sobre la esfera (sin amontonarse en los polos).
+1. **Población inicial:** 80 configuraciones al azar, con los satélites repartidos de forma uniforme sobre la esfera (sin amontonarse en los polos).
 2. **Evaluación:** cobertura, redundancia, aptitud y violación de cada una.
 3. **Selección por torneo** de 3 con las reglas de Deb.
 4. **Cruza por fondo común** (probabilidad 0.9): se juntan los 16 satélites de los dos padres y el hijo toma 8 al azar. Como el orden de los satélites no importa, cruzar "el satélite 3 del padre A con el satélite 3 del padre B" no tendría sentido; el fondo común sí respeta eso.
 5. **Mutación** (cada satélite con probabilidad 0.2):
    - 90 % de las veces, **desplazamiento** en una dirección al azar sobre la esfera, con una distancia que empieza grande (σ = 8°) y se reduce en cada generación hasta σ = 0.3°. Al principio explora; al final afina.
-   - 10 % de las veces, **reubicación** del satélite en un punto al azar del planeta, para no quedarse atorado.
+   - 20 % de las veces, **reubicación**: el satélite salta a otro lugar, para no quedarse atorado. La mitad de las reubicaciones son **al azar** en todo el planeta y la otra mitad son **informadas**: caen cerca de una región elegida al azar (a menos de huella + radio de la región, ≈ 8.1°, que es lo más lejos que un satélite puede estar para tocarla).
+
+   La reubicación informada usa conocimiento del problema: solo cerca de una región un satélite puede sumar cobertura. La agregamos después de ver que, sin ella, el algoritmo dejaba regiones sin cubrir porque un salto al azar cae cerca de una región apenas el 0.5 % de las veces (ver la calibración en la sección 6 y la prueba P7).
 6. **Elitismo:** las 2 mejores configuraciones pasan intactas a la siguiente generación, así la mejor solución encontrada nunca se pierde.
 7. **Historial:** en cada generación se guarda la mejor aptitud, la aptitud promedio, el porcentaje de individuos válidos, la menor violación y cuántas regiones cubre la mejor.
 8. Se repite durante un número **configurable** de generaciones.
@@ -171,17 +173,35 @@ Algoritmo genético generacional con elitismo:
 | Pesos alta / media / normal | 3 / 2 / 1 | Orden del enunciado, pesos lineales |
 | Peso de la redundancia | 0.10 | Menor que lo que vale cualquier región |
 | Separación mínima entre satélites | 1° | Definida por el equipo (evitar choques) |
-| Tamaño de población | 60 | Valor de partida común para un problema de 16 números; se revisa con las pruebas |
+| Tamaño de población | 80 | Calibración (abajo): con 60 salían 15/20 corridas buenas, con 80 salen 18/20 |
 | Generaciones | 150 | Configurable; la curva de evolución muestra si alcanza |
 | Torneo | 3 | Presión de selección moderada |
 | Probabilidad de cruza | 0.9 | Valor común en algoritmos genéticos |
 | Probabilidad de mutación por satélite | 0.2 | ≈ 1.6 satélites mutados por hijo |
 | σ de la mutación | 8° → 0.3° | Exploración al inicio, ajuste fino al final |
-| Probabilidad de reubicación | 0.1 | Escape de óptimos locales |
+| Probabilidad de reubicación | 0.2 | Escape de óptimos locales |
+| Reubicaciones informadas | 50 % | Calibración: 0 % → 5/20, 50 % → 15/20, 100 % → 14/20 (con población 60) |
 | Élite | 2 | Conservar lo mejor sin frenar la diversidad |
 | Semilla aleatoria | Configurable | Para repetir una ejecución exacta |
 
-Los valores de población y generaciones son de partida. La prueba de variación entre ejecuciones y la comparación contra búsqueda aleatoria (Entregable 3) muestran si alcanzan.
+### Calibración
+
+Los valores de arriba salieron de comparar combinaciones con **20 semillas cada una** (100 a 119) en la etapa 2. Se cuenta en cuántas corridas la solución final es "suficientemente buena" (sección 7). Se reproduce con `python calibrar.py` (resultado en `resultados/calibracion.json`).
+
+| Población | Generaciones | Reubicación | Informadas | Mutación | σ final | F media | F mínima | Buenas |
+|---|---|---|---|---|---|---|---|---|
+| 60 | 150 | 0.1 | 0 % | 0.2 | 0.3 | 0.9615 | 0.8073 | 5/20 |
+| 60 | 150 | 0.1 | 50 % | 0.2 | 0.3 | 1.0369 | 1.0119 | 15/20 |
+| 60 | 150 | 0.2 | 50 % | 0.2 | 0.3 | 1.0368 | 1.0210 | 15/20 |
+| 60 | 150 | 0.2 | 100 % | 0.2 | 0.3 | 1.0336 | 1.0106 | 14/20 |
+| 60 | 200 | 0.2 | 50 % | 0.2 | 0.3 | 1.0362 | 1.0162 | 14/20 |
+| **80** | **150** | **0.2** | **50 %** | **0.2** | **0.3** | **1.0390** | **1.0191** | **18/20** |
+| 100 | 150 | 0.2 | 50 % | 0.2 | 0.3 | 1.0394 | 1.0272 | 17/20 |
+| 80 | 250 | 0.2 | 50 % | 0.2 | 0.3 | 1.0406 | 1.0260 | 17/20 |
+| 80 | 150 | 0.2 | 50 % | 0.15 | 0.3 | 1.0357 | 1.0185 | 17/20 |
+| 80 | 150 | 0.2 | 50 % | 0.2 | 0.1 | 1.0367 | 1.0058 | 15/20 |
+
+Lo que más cambió el resultado fue la reubicación informada (de 5/20 a 15/20). Más población o más generaciones mejoraron poco y cuestan más evaluaciones. Escogimos la fila en negritas: es la de más corridas buenas con 12,000 evaluaciones. Las diferencias de 1 o 2 corridas entre filas parecidas pueden ser azar; con 20 semillas no alcanza para separarlas.
 
 ## 7. Cuándo una solución es suficientemente buena
 
