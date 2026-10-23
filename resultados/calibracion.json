@@ -1,0 +1,122 @@
+[
+  {
+    "poblacion": 60,
+    "generaciones": 150,
+    "prob_reubicar": 0.1,
+    "prob_informada": 0.0,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 9000,
+    "aptitud_media": 0.9615,
+    "aptitud_minima": 0.8073,
+    "suficientemente_buenas": "5/20"
+  },
+  {
+    "poblacion": 60,
+    "generaciones": 150,
+    "prob_reubicar": 0.1,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 9000,
+    "aptitud_media": 1.0369,
+    "aptitud_minima": 1.0119,
+    "suficientemente_buenas": "15/20"
+  },
+  {
+    "poblacion": 60,
+    "generaciones": 150,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 9000,
+    "aptitud_media": 1.0368,
+    "aptitud_minima": 1.021,
+    "suficientemente_buenas": "15/20"
+  },
+  {
+    "poblacion": 60,
+    "generaciones": 150,
+    "prob_reubicar": 0.2,
+    "prob_informada": 1.0,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 9000,
+    "aptitud_media": 1.0336,
+    "aptitud_minima": 1.0106,
+    "suficientemente_buenas": "14/20"
+  },
+  {
+    "poblacion": 60,
+    "generaciones": 200,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 12000,
+    "aptitud_media": 1.0362,
+    "aptitud_minima": 1.0162,
+    "suficientemente_buenas": "14/20"
+  },
+  {
+    "poblacion": 80,
+    "generaciones": 150,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 12000,
+    "aptitud_media": 1.039,
+    "aptitud_minima": 1.0191,
+    "suficientemente_buenas": "18/20"
+  },
+  {
+    "poblacion": 100,
+    "generaciones": 150,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 15000,
+    "aptitud_media": 1.0394,
+    "aptitud_minima": 1.0272,
+    "suficientemente_buenas": "17/20"
+  },
+  {
+    "poblacion": 80,
+    "generaciones": 250,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.3,
+    "evaluaciones": 20000,
+    "aptitud_media": 1.0406,
+    "aptitud_minima": 1.026,
+    "suficientemente_buenas": "17/20"
+  },
+  {
+    "poblacion": 80,
+    "generaciones": 150,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.15,
+    "sigma_final": 0.3,
+    "evaluaciones": 12000,
+    "aptitud_media": 1.0357,
+    "aptitud_minima": 1.0185,
+    "suficientemente_buenas": "17/20"
+  },
+  {
+    "poblacion": 80,
+    "generaciones": 150,
+    "prob_reubicar": 0.2,
+    "prob_informada": 0.5,
+    "prob_mutacion": 0.2,
+    "sigma_final": 0.1,
+    "evaluaciones": 12000,
+    "aptitud_media": 1.0367,
+    "aptitud_minima": 1.0058,
+    "suficientemente_buenas": "15/20"
+  }
+]
